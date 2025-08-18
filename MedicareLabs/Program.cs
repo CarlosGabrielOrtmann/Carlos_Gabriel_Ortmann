@@ -33,7 +33,7 @@ namespace MedicareLabs
             for (int i=0; i < PAC; i++)
             {
                 Console.Write($"Paciente: {i + 1}");
-                for (int j = 0; j < PRU; i++)
+                for (int j = 0; j < PRU; j++)
                 {
                     do
                     {
@@ -41,6 +41,7 @@ namespace MedicareLabs
                         resultadosAnalisis = Convert.ToInt32( Console.ReadLine() );
                     } while (resultadosAnalisis < 0);
                     Resultados[i,j] = resultadosAnalisis;
+
 
                 }
                 
