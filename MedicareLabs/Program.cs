@@ -41,17 +41,17 @@ namespace MedicareLabs
                         resultadosAnalisis = Convert.ToInt32( Console.ReadLine() );
                     } while (resultadosAnalisis < 0);
                     Resultados[i,j] = resultadosAnalisis;
+
                 }
+                
             }
-
             Console.ReadKey();
-
-            for (int i=0; i < PAC; i++)
+            for (int i = 0; i < PAC; i++)
             {
                 Console.Write($"Paciente: {i + 1}");
-                for(int j = 0; j < PRU; j++)
+                for (int j = 0; j < PRU; j++)
                 {
-                    Console.WriteLine($"Prueba: {j + 1}: {Resultados[i,j]}");
+                    Console.WriteLine($"Prueba: {j + 1}: {Resultados[i, j]}");
                 }
             }
         }
