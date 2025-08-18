@@ -57,8 +57,49 @@ namespace MedicareLabs
 
         public static void ContarPAcientesValorAbsoluto(int[,] Resultados, int[] MaximoPrueba)
         {
+            //contar
+            int[] PacienteAltos = new int[PAC];
+            int[] PacienteNumero = new int[PAC];
+            int cuentaAltos, auxiliar;
 
+            for (int i = 0; i < PAC; i++)
+            {
+                cuentaAltos = 0;
+                Console.Write($"Paciente: {i + 1}");
+                for (int j = 0; j < PRU; j++)
+                {
+                    if (Resultados[i, j] > MaximoPrueba[j])
+                    {
+                        cuentaAltos++;
+                    }
+                }
+             PacienteAltos[i] = cuentaAltos;
+             PacienteNumero[i] = i + 1;
+            }
+            //ordenar
+            for (int i = 0; i < PAC; i++)
+            {
+                for (int j = 0; j < PRU; j++)
+                {
+                    if (PacienteAltos[i] < PacienteAltos[j])
+                    {
+                        auxiliar= PacienteAltos[i];
+                        PacienteAltos[i] = PacienteAltos[j];
+                        PacienteAltos[j] = auxiliar;
+
+                        auxiliar = PacienteNumero[i];
+                        PacienteNumero[i] = PacienteNumero[j];
+                        PacienteNumero[j] = auxiliar;
+                    }
+                }
+            }
+            //mostrar
+            for (int i = 0; i < PAC; i++)
+            {
+                Console.Write($"Paciente: {PacienteNumero[i]} Cantidad: {PacienteAltos[i]}");
+            }
         }
+
         public static void CalcularPromedioPruebaEspecifica(int[,] Resultados)
         {
 
