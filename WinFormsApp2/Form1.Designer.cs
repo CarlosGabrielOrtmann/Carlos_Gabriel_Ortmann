@@ -36,6 +36,8 @@
             txtApellido = new TextBox();
             txtNombre = new TextBox();
             lblSalida = new Label();
+            list_nombres = new ListBox();
+            btnEliminar = new Button();
             SuspendLayout();
             // 
             // lblTituloEjercicio
@@ -108,11 +110,32 @@
             lblSalida.TabIndex = 7;
             lblSalida.Text = "label1";
             // 
+            // list_nombres
+            // 
+            list_nombres.FormattingEnabled = true;
+            list_nombres.ItemHeight = 15;
+            list_nombres.Location = new Point(412, 26);
+            list_nombres.Name = "list_nombres";
+            list_nombres.Size = new Size(233, 154);
+            list_nombres.TabIndex = 8;
+            // 
+            // btnEliminar
+            // 
+            btnEliminar.Location = new Point(431, 195);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(72, 21);
+            btnEliminar.TabIndex = 9;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
+            // 
             // frmEjercicio01
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnEliminar);
+            Controls.Add(list_nombres);
             Controls.Add(lblSalida);
             Controls.Add(txtNombre);
             Controls.Add(txtApellido);
@@ -137,5 +160,7 @@
         private TextBox txtApellido;
         private TextBox txtNombre;
         private Label lblSalida;
+        private ListBox list_nombres;
+        private Button btnEliminar;
     }
 }
