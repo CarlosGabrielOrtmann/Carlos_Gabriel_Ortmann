@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escritorio 1", "WinFormsApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio video de windows form - Clase 3", "Ejercicio video de windows form - Clase 3\Ejercicio video de windows form - Clase 3.csproj", "{C2DD5DBD-A38C-49D0-8E08-531F06D999B9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase 4 01.09.2025", "Clase 4 01.09.2025", "{CF806DEF-92CD-4495-9E1D-464569305A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo de creación de otro form mediante un botón en otro form", "Ejemplo de creación de otro form mediante un botón en otro form\Ejemplo de creación de otro form mediante un botón en otro form.csproj", "{CC699FE1-40E7-495F-BBA3-58CCDD7C9269}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,10 @@ Global
 		{C2DD5DBD-A38C-49D0-8E08-531F06D999B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2DD5DBD-A38C-49D0-8E08-531F06D999B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2DD5DBD-A38C-49D0-8E08-531F06D999B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC699FE1-40E7-495F-BBA3-58CCDD7C9269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC699FE1-40E7-495F-BBA3-58CCDD7C9269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC699FE1-40E7-495F-BBA3-58CCDD7C9269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC699FE1-40E7-495F-BBA3-58CCDD7C9269}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +97,8 @@ Global
 		{72A7653A-9260-43AE-B055-3837C94C1D1B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{294311D0-C190-4625-91C9-610358B2DC83} = {72A7653A-9260-43AE-B055-3837C94C1D1B}
 		{C2DD5DBD-A38C-49D0-8E08-531F06D999B9} = {72A7653A-9260-43AE-B055-3837C94C1D1B}
+		{CF806DEF-92CD-4495-9E1D-464569305A25} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CC699FE1-40E7-495F-BBA3-58CCDD7C9269} = {CF806DEF-92CD-4495-9E1D-464569305A25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD416583-AF90-4A1E-B4BD-59215859B8D3}
