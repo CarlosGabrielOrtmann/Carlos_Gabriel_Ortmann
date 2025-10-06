@@ -75,7 +75,7 @@
             // salirToolStripMenuItem
             // 
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(96, 22);
+            salirToolStripMenuItem.Size = new Size(180, 22);
             salirToolStripMenuItem.Text = "Salir";
             salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
             // 
@@ -214,7 +214,7 @@
             // autoresDelTrabajoToolStripMenuItem
             // 
             autoresDelTrabajoToolStripMenuItem.Name = "autoresDelTrabajoToolStripMenuItem";
-            autoresDelTrabajoToolStripMenuItem.Size = new Size(175, 22);
+            autoresDelTrabajoToolStripMenuItem.Size = new Size(180, 22);
             autoresDelTrabajoToolStripMenuItem.Text = "Autores del Trabajo";
             autoresDelTrabajoToolStripMenuItem.Click += autoresDelTrabajoToolStripMenuItem_Click;
             // 
