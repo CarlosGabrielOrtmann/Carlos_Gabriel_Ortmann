@@ -16,5 +16,23 @@ namespace TPIntegradorParte2
         {
             MessageBox.Show("Carlos Gabriel Ortmann");
         }
+
+        private void ejercicio1GestiónDeInventarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmInventario frm = new FrmInventario();
+            frm.ShowDialog();
+        }
+
+        private void ejercicio2ListaDeTareasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTareas frm = new FrmTareas();
+            frm.ShowDialog();
+        }
+
+        private void ejercicio3CalificacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCalificaciones frm = new FrmCalificaciones();
+            frm.ShowDialog();
+        }
     }
 }

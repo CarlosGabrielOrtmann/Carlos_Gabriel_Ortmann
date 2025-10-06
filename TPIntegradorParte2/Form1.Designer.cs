@@ -75,7 +75,7 @@
             // salirToolStripMenuItem
             // 
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(180, 22);
+            salirToolStripMenuItem.Size = new Size(96, 22);
             salirToolStripMenuItem.Text = "Salir";
             salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
             // 
@@ -91,18 +91,21 @@
             ejercicio1GestiónDeInventarioToolStripMenuItem.Name = "ejercicio1GestiónDeInventarioToolStripMenuItem";
             ejercicio1GestiónDeInventarioToolStripMenuItem.Size = new Size(245, 22);
             ejercicio1GestiónDeInventarioToolStripMenuItem.Text = "Ejercicio 1: Gestión de Inventario";
+            ejercicio1GestiónDeInventarioToolStripMenuItem.Click += ejercicio1GestiónDeInventarioToolStripMenuItem_Click;
             // 
             // ejercicio2ListaDeTareasToolStripMenuItem
             // 
             ejercicio2ListaDeTareasToolStripMenuItem.Name = "ejercicio2ListaDeTareasToolStripMenuItem";
             ejercicio2ListaDeTareasToolStripMenuItem.Size = new Size(245, 22);
             ejercicio2ListaDeTareasToolStripMenuItem.Text = "Ejercicio 2: Lista de Tareas";
+            ejercicio2ListaDeTareasToolStripMenuItem.Click += ejercicio2ListaDeTareasToolStripMenuItem_Click;
             // 
             // ejercicio3CalificacionesToolStripMenuItem
             // 
             ejercicio3CalificacionesToolStripMenuItem.Name = "ejercicio3CalificacionesToolStripMenuItem";
             ejercicio3CalificacionesToolStripMenuItem.Size = new Size(245, 22);
             ejercicio3CalificacionesToolStripMenuItem.Text = "Ejercicio 3: Calificaciones";
+            ejercicio3CalificacionesToolStripMenuItem.Click += ejercicio3CalificacionesToolStripMenuItem_Click;
             // 
             // ejerciciosConLinkedListToolStripMenuItem
             // 
@@ -214,7 +217,7 @@
             // autoresDelTrabajoToolStripMenuItem
             // 
             autoresDelTrabajoToolStripMenuItem.Name = "autoresDelTrabajoToolStripMenuItem";
-            autoresDelTrabajoToolStripMenuItem.Size = new Size(180, 22);
+            autoresDelTrabajoToolStripMenuItem.Size = new Size(175, 22);
             autoresDelTrabajoToolStripMenuItem.Text = "Autores del Trabajo";
             autoresDelTrabajoToolStripMenuItem.Click += autoresDelTrabajoToolStripMenuItem_Click;
             // 
