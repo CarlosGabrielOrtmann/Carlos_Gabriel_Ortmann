@@ -119,18 +119,21 @@
             ejercicio1ListaDeEsperaToolStripMenuItem.Name = "ejercicio1ListaDeEsperaToolStripMenuItem";
             ejercicio1ListaDeEsperaToolStripMenuItem.Size = new Size(283, 22);
             ejercicio1ListaDeEsperaToolStripMenuItem.Text = "Ejercicio 1: Lista de Espera Restaurant";
+            ejercicio1ListaDeEsperaToolStripMenuItem.Click += ejercicio1ListaDeEsperaToolStripMenuItem_Click;
             // 
             // ejercicio2ListaDeTareasToolStripMenuItem1
             // 
             ejercicio2ListaDeTareasToolStripMenuItem1.Name = "ejercicio2ListaDeTareasToolStripMenuItem1";
             ejercicio2ListaDeTareasToolStripMenuItem1.Size = new Size(283, 22);
             ejercicio2ListaDeTareasToolStripMenuItem1.Text = "Ejercicio 2: Historial Editor de Texto";
+            ejercicio2ListaDeTareasToolStripMenuItem1.Click += ejercicio2ListaDeTareasToolStripMenuItem1_Click;
             // 
             // ejercicio3CalificacionesToolStripMenuItem1
             // 
             ejercicio3CalificacionesToolStripMenuItem1.Name = "ejercicio3CalificacionesToolStripMenuItem1";
             ejercicio3CalificacionesToolStripMenuItem1.Size = new Size(283, 22);
             ejercicio3CalificacionesToolStripMenuItem1.Text = "Ejercicio 3: Lista de Reproductor Música";
+            ejercicio3CalificacionesToolStripMenuItem1.Click += ejercicio3CalificacionesToolStripMenuItem1_Click;
             // 
             // ejerciciosConPilaToolStripMenuItem
             // 
@@ -144,18 +147,21 @@
             simuladorPilaDePlatosToolStripMenuItem.Name = "simuladorPilaDePlatosToolStripMenuItem";
             simuladorPilaDePlatosToolStripMenuItem.Size = new Size(231, 22);
             simuladorPilaDePlatosToolStripMenuItem.Text = "Ej.1 - Simulador Pila De Platos";
+            simuladorPilaDePlatosToolStripMenuItem.Click += simuladorPilaDePlatosToolStripMenuItem_Click;
             // 
             // ej2ToolStripMenuItem
             // 
             ej2ToolStripMenuItem.Name = "ej2ToolStripMenuItem";
             ej2ToolStripMenuItem.Size = new Size(231, 22);
             ej2ToolStripMenuItem.Text = "Ej.2 - Verificador de Paréntesis";
+            ej2ToolStripMenuItem.Click += ej2ToolStripMenuItem_Click;
             // 
             // ej3ToolStripMenuItem
             // 
             ej3ToolStripMenuItem.Name = "ej3ToolStripMenuItem";
             ej3ToolStripMenuItem.Size = new Size(231, 22);
             ej3ToolStripMenuItem.Text = "Ej.3 - Historial de Navegación";
+            ej3ToolStripMenuItem.Click += ej3ToolStripMenuItem_Click;
             // 
             // ejerciciosConColaToolStripMenuItem
             // 
@@ -169,18 +175,21 @@
             ej1ImToolStripMenuItem.Name = "ej1ImToolStripMenuItem";
             ej1ImToolStripMenuItem.Size = new Size(265, 22);
             ej1ImToolStripMenuItem.Text = "Ej.1 - Impresión Documentos";
+            ej1ImToolStripMenuItem.Click += ej1ImToolStripMenuItem_Click;
             // 
             // ej2ToolStripMenuItem1
             // 
             ej2ToolStripMenuItem1.Name = "ej2ToolStripMenuItem1";
             ej2ToolStripMenuItem1.Size = new Size(265, 22);
             ej2ToolStripMenuItem1.Text = "Ej.2 - Simulador Call Center";
+            ej2ToolStripMenuItem1.Click += ej2ToolStripMenuItem1_Click;
             // 
             // ej3ToolStripMenuItem1
             // 
             ej3ToolStripMenuItem1.Name = "ej3ToolStripMenuItem1";
             ej3ToolStripMenuItem1.Size = new Size(265, 22);
             ej3ToolStripMenuItem1.Text = "Ej.3 - Procesos en Sistema Operativo";
+            ej3ToolStripMenuItem1.Click += ej3ToolStripMenuItem1_Click;
             // 
             // ejerciciosConDiccionariosToolStripMenuItem
             // 
@@ -194,18 +203,21 @@
             ej1ToolStripMenuItem.Name = "ej1ToolStripMenuItem";
             ej1ToolStripMenuItem.Size = new Size(287, 22);
             ej1ToolStripMenuItem.Text = "Ej.1 - Directorio Telefónico";
+            ej1ToolStripMenuItem.Click += ej1ToolStripMenuItem_Click;
             // 
             // ej2ToolStripMenuItem2
             // 
             ej2ToolStripMenuItem2.Name = "ej2ToolStripMenuItem2";
             ej2ToolStripMenuItem2.Size = new Size(287, 22);
             ej2ToolStripMenuItem2.Text = "Ej.2 - Catalogo de Productos por Código";
+            ej2ToolStripMenuItem2.Click += ej2ToolStripMenuItem2_Click;
             // 
             // ej3ToolStripMenuItem2
             // 
             ej3ToolStripMenuItem2.Name = "ej3ToolStripMenuItem2";
             ej3ToolStripMenuItem2.Size = new Size(287, 22);
             ej3ToolStripMenuItem2.Text = "Ej.3 - Traductor de Idiomas";
+            ej3ToolStripMenuItem2.Click += ej3ToolStripMenuItem2_Click;
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -217,7 +229,7 @@
             // autoresDelTrabajoToolStripMenuItem
             // 
             autoresDelTrabajoToolStripMenuItem.Name = "autoresDelTrabajoToolStripMenuItem";
-            autoresDelTrabajoToolStripMenuItem.Size = new Size(175, 22);
+            autoresDelTrabajoToolStripMenuItem.Size = new Size(176, 22);
             autoresDelTrabajoToolStripMenuItem.Text = "Autores del Trabajo";
             autoresDelTrabajoToolStripMenuItem.Click += autoresDelTrabajoToolStripMenuItem_Click;
             // 

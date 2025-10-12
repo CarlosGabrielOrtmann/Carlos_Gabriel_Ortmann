@@ -75,11 +75,12 @@
             // btnAgregar
             // 
             btnAgregar.Location = new Point(127, 50);
-            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Name = "btnEnviar";
             btnAgregar.Size = new Size(75, 23);
             btnAgregar.TabIndex = 4;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnEliminarMenor
             // 
@@ -89,6 +90,7 @@
             btnEliminarMenor.TabIndex = 5;
             btnEliminarMenor.Text = "Eliminar Menor";
             btnEliminarMenor.UseVisualStyleBackColor = true;
+            btnEliminarMenor.Click += btnEliminarMenor_Click;
             // 
             // btnEliminarMayor
             // 
@@ -98,6 +100,7 @@
             btnEliminarMayor.TabIndex = 6;
             btnEliminarMayor.Text = "Eliminar Mayor";
             btnEliminarMayor.UseVisualStyleBackColor = true;
+            btnEliminarMayor.Click += btnEliminarMayor_Click;
             // 
             // btnPromedio
             // 
@@ -107,6 +110,7 @@
             btnPromedio.TabIndex = 7;
             btnPromedio.Text = "Promedio";
             btnPromedio.UseVisualStyleBackColor = true;
+            btnPromedio.Click += btnPromedio_Click;
             // 
             // label2
             // 

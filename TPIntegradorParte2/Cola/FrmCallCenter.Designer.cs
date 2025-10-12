@@ -1,6 +1,6 @@
 ﻿namespace TPIntegradorParte2
 {
-    partial class FrmListaEspera
+    partial class FrmCallCenter
     {
         /// <summary>
         /// Required designer variable.
@@ -29,78 +29,69 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            txtCliente = new TextBox();
+            txtLlamada = new TextBox();
             btnAgregar = new Button();
             btnAtender = new Button();
-            btnAbandonar = new Button();
-            listBox1 = new ListBox();
+            lstLlamadas = new ListBox();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 18);
+            label1.Location = new Point(12, 15);
             label1.Name = "label1";
-            label1.Size = new Size(89, 15);
+            label1.Size = new Size(99, 15);
             label1.TabIndex = 0;
-            label1.Text = "Nombre cliente";
+            label1.Text = "Llamada Entrante";
             // 
-            // txtCliente
+            // txtLlamada
             // 
-            txtCliente.Location = new Point(107, 15);
-            txtCliente.Name = "txtCliente";
-            txtCliente.Size = new Size(100, 23);
-            txtCliente.TabIndex = 1;
+            txtLlamada.Location = new Point(117, 12);
+            txtLlamada.Name = "txtLlamada";
+            txtLlamada.Size = new Size(100, 23);
+            txtLlamada.TabIndex = 1;
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(12, 64);
-            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Location = new Point(12, 44);
+            btnAgregar.Name = "btnEnviar";
             btnAgregar.Size = new Size(75, 23);
             btnAgregar.TabIndex = 2;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnAtender
             // 
-            btnAtender.Location = new Point(93, 64);
+            btnAtender.Location = new Point(142, 44);
             btnAtender.Name = "btnAtender";
             btnAtender.Size = new Size(75, 23);
             btnAtender.TabIndex = 3;
             btnAtender.Text = "Atender";
             btnAtender.UseVisualStyleBackColor = true;
+            btnAtender.Click += btnAtender_Click;
             // 
-            // btnAbandonar
+            // lstLlamadas
             // 
-            btnAbandonar.Location = new Point(174, 64);
-            btnAbandonar.Name = "btnAbandonar";
-            btnAbandonar.Size = new Size(113, 23);
-            btnAbandonar.TabIndex = 4;
-            btnAbandonar.Text = "Abandonar espera";
-            btnAbandonar.UseVisualStyleBackColor = true;
+            lstLlamadas.FormattingEnabled = true;
+            lstLlamadas.ItemHeight = 15;
+            lstLlamadas.Location = new Point(12, 83);
+            lstLlamadas.Name = "lstLlamadas";
+            lstLlamadas.Size = new Size(205, 184);
+            lstLlamadas.TabIndex = 4;
             // 
-            // listBox1
-            // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(47, 214);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(120, 94);
-            listBox1.TabIndex = 5;
-            // 
-            // FrmListaEspera
+            // FrmCallCenter
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(listBox1);
-            Controls.Add(btnAbandonar);
+            ClientSize = new Size(231, 292);
+            Controls.Add(lstLlamadas);
             Controls.Add(btnAtender);
             Controls.Add(btnAgregar);
-            Controls.Add(txtCliente);
+            Controls.Add(txtLlamada);
             Controls.Add(label1);
-            Name = "FrmListaEspera";
-            Text = "FrmListaEspera";
+            Name = "FrmCallCenter";
+            Text = "FrmCallCenter";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -108,10 +99,9 @@
         #endregion
 
         private Label label1;
-        private TextBox txtCliente;
+        private TextBox txtLlamada;
         private Button btnAgregar;
         private Button btnAtender;
-        private Button btnAbandonar;
-        private ListBox listBox1;
+        private ListBox lstLlamadas;
     }
 }

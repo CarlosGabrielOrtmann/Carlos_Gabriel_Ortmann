@@ -40,7 +40,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(12, 23);
             label1.Name = "label1";
-            label1.Size = new Size(71, 15);
+            label1.Size = new Size(72, 15);
             label1.TabIndex = 0;
             label1.Text = "Nueva Tarea";
             // 
@@ -54,11 +54,12 @@
             // btnAgregar
             // 
             btnAgregar.Location = new Point(12, 58);
-            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Name = "btnEnviar";
             btnAgregar.Size = new Size(75, 23);
             btnAgregar.TabIndex = 2;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnEliminar
             // 
@@ -68,6 +69,7 @@
             btnEliminar.TabIndex = 3;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // lstTareas
             // 

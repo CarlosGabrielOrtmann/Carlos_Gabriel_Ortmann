@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            txtnombre = new TextBox();
+            txtNombre = new TextBox();
             label1 = new Label();
             label2 = new Label();
-            txtcantidad = new TextBox();
+            txtCantidad = new TextBox();
             btnAgregar = new Button();
             btnEliminar = new Button();
             btnBuscar = new Button();
@@ -39,17 +39,17 @@
             ((System.ComponentModel.ISupportInitialize)dgvInventario).BeginInit();
             SuspendLayout();
             // 
-            // txtnombre
+            // txtNombre
             // 
-            txtnombre.Location = new Point(160, 24);
-            txtnombre.Name = "txtnombre";
-            txtnombre.Size = new Size(100, 23);
-            txtnombre.TabIndex = 0;
+            txtNombre.Location = new Point(135, 12);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(100, 23);
+            txtNombre.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(32, 27);
+            label1.Location = new Point(7, 15);
             label1.Name = "label1";
             label1.Size = new Size(122, 15);
             label1.TabIndex = 1;
@@ -58,27 +58,28 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(32, 56);
+            label2.Location = new Point(7, 44);
             label2.Name = "label2";
             label2.Size = new Size(55, 15);
             label2.TabIndex = 3;
             label2.Text = "Cantidad";
             // 
-            // txtcantidad
+            // txtCantidad
             // 
-            txtcantidad.Location = new Point(89, 53);
-            txtcantidad.Name = "txtcantidad";
-            txtcantidad.Size = new Size(100, 23);
-            txtcantidad.TabIndex = 2;
+            txtCantidad.Location = new Point(64, 41);
+            txtCantidad.Name = "txtCantidad";
+            txtCantidad.Size = new Size(100, 23);
+            txtCantidad.TabIndex = 2;
             // 
             // btnAgregar
             // 
             btnAgregar.Location = new Point(225, 76);
-            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Name = "btnEnviar";
             btnAgregar.Size = new Size(75, 23);
             btnAgregar.TabIndex = 4;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnEliminar
             // 
@@ -88,6 +89,7 @@
             btnEliminar.TabIndex = 5;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // btnBuscar
             // 
@@ -97,6 +99,7 @@
             btnBuscar.TabIndex = 6;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click;
             // 
             // dgvInventario
             // 
@@ -116,9 +119,9 @@
             Controls.Add(btnEliminar);
             Controls.Add(btnAgregar);
             Controls.Add(label2);
-            Controls.Add(txtcantidad);
+            Controls.Add(txtCantidad);
             Controls.Add(label1);
-            Controls.Add(txtnombre);
+            Controls.Add(txtNombre);
             Name = "FrmInventario";
             Text = "FrmInventario";
             ((System.ComponentModel.ISupportInitialize)dgvInventario).EndInit();
@@ -128,10 +131,10 @@
 
         #endregion
 
-        private TextBox txtnombre;
+        private TextBox txtNombre;
         private Label label1;
         private Label label2;
-        private TextBox txtcantidad;
+        private TextBox txtCantidad;
         private Button btnAgregar;
         private Button btnEliminar;
         private Button btnBuscar;
